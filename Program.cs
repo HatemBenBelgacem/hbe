@@ -16,19 +16,21 @@ namespace Name
 
 
 
-            for (int i = 0; i < 5; i++)
+        while (liste.Count < 5)
+        {
+            zahl.zufallsZahl = rand.Next(1, 51);
+            
+            if (!liste.Contains(zahl.zufallsZahl))
             {
-                zahl.zufallsZahl = rand.Next(1, 51);
-                
-                if (!liste.Contains(zahl.zufallsZahl))
-                {
-                    liste.Add(zahl.zufallsZahl);
-                }
-
+                liste.Add(zahl.zufallsZahl);
+                liste.Sort();
             }
 
+        }
+        Console.WriteLine("Tipp");
         foreach (object a in liste)
         {
+            
             Console.Write(a + ", ");
         }
 
