@@ -11,28 +11,29 @@ namespace Name
         static void Main(string[] args)
         {
             Zahlen zahl = new Zahlen();
-            int zf = 0;
             var rand = new Random();
             ArrayList liste = new ArrayList();
-      
-            for(int i=0;i<5;i++)
+
+
+
+            for (int i = 0; i < 5; i++)
             {
                 zahl.zufallsZahl = rand.Next(1, 51);
-                Console.WriteLine(zahl.zufallsZahl);
-                if(!liste.Contains(zahl.zufallsZahl))
-                {
-                    liste.Add(liste);
-                }
                 
+                if (!liste.Contains(zahl.zufallsZahl))
+                {
+                    liste.Add(zahl.zufallsZahl);
+                }
+
             }
-           
-            foreach(int a in liste)
-            {
-                Console.WriteLine(a);
-            }
-            
+
+        foreach (object a in liste)
+        {
+            Console.Write(a + ", ");
         }
-    }      
+
+        }
+    }
 }
 
 

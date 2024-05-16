@@ -12,3 +12,4 @@ D:\dev_Projekte\hbe\obj\Debug\net8.0\refint\hbe.dll
 D:\dev_Projekte\hbe\obj\Debug\net8.0\hbe.pdb
 D:\dev_Projekte\hbe\obj\Debug\net8.0\hbe.genruntimeconfig.cache
 D:\dev_Projekte\hbe\obj\Debug\net8.0\ref\hbe.dll
+D:\dev_Projekte\hbe\obj\Debug\net8.0\hbe.sourcelink.json
