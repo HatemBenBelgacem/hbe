@@ -21,8 +21,7 @@ namespace Name
 
 
 
-            while(zahl.anzahlTipps <= 5)
-            {
+           
                 Console.WriteLine("----------------------------");
                 zahl.anzahlTipps++;
             
@@ -59,7 +58,7 @@ namespace Name
                     Console.Write(s + ", ");
                 }
                 Console.WriteLine();
-            }
+            
         }
     }
 }
