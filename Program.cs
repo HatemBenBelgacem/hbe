@@ -19,9 +19,25 @@ namespace Name
             ArrayList tippListe = new ArrayList();
             ArrayList sternListe = new ArrayList();
 
+            static int ReadInt(string prompt)
+            {
+                int result;
+                while(true)
+                {
+                    Console.WriteLine(prompt);
+                    if(int.TryParse(Console.ReadLine(), out result))
+                        break;
+                    else
+                        Console.WriteLine("Ungültige Eingabe");
+                }
+                return result;
+            }
 
+            int eingabe = ReadInt("Eingabe bitte");
+            while(zahl.anzahlTipps < eingabe)
+            {
 
-           
+            
                 Console.WriteLine("----------------------------");
                 zahl.anzahlTipps++;
             
@@ -58,7 +74,9 @@ namespace Name
                     Console.Write(s + ", ");
                 }
                 Console.WriteLine();
-            
+                tippListe.Clear();
+                sternListe.Clear();
+            }
         }
     }
 }
