@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev_Projekte\\hbe-1\\hbe.csproj": {}
+    "D:\\dev_Projekte\\hbe-2\\hbe.csproj": {}
   },
   "projects": {
-    "D:\\dev_Projekte\\hbe-1\\hbe.csproj": {
+    "D:\\dev_Projekte\\hbe-2\\hbe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev_Projekte\\hbe-1\\hbe.csproj",
+        "projectUniqueName": "D:\\dev_Projekte\\hbe-2\\hbe.csproj",
         "projectName": "hbe",
-        "projectPath": "D:\\dev_Projekte\\hbe-1\\hbe.csproj",
+        "projectPath": "D:\\dev_Projekte\\hbe-2\\hbe.csproj",
         "packagesPath": "C:\\Users\\hbe\\.nuget\\packages\\",
-        "outputPath": "D:\\dev_Projekte\\hbe-1\\obj\\",
+        "outputPath": "D:\\dev_Projekte\\hbe-2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hbe\\AppData\\Roaming\\NuGet\\NuGet.Config"

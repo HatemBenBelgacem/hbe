@@ -33,7 +33,7 @@ namespace Name
                 return result;
             }
 
-            int eingabe = ReadInt("Eingabe bitte");
+            int eingabe = ReadInt("Eingabe bitte: ");
             while(zahl.anzahlTipps < eingabe)
             {
 
