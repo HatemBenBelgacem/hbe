@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev_Projekte\\hbe-2\\hbe.csproj",
+      "projectUniqueName": "D:\\dev_Projekte\\hbe\\hbe.csproj",
       "projectName": "hbe",
-      "projectPath": "D:\\dev_Projekte\\hbe-2\\hbe.csproj",
+      "projectPath": "D:\\dev_Projekte\\hbe\\hbe.csproj",
       "packagesPath": "C:\\Users\\hbe\\.nuget\\packages\\",
-      "outputPath": "D:\\dev_Projekte\\hbe-2\\obj\\",
+      "outputPath": "D:\\dev_Projekte\\hbe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
